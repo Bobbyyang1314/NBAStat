@@ -1,7 +1,11 @@
 # NBAStats
-Description:
+Description: Distributed System Project
 
 This application takes a search string from the user, and uses it to fetch and display the information of the NBA player.
+
+Designed and implemented a native Android Application using the HTTP protocol in MVC design pattern, which allows users to search for information of the NBA players they are interested in.
+Built a Java web service that consumes NBA stats API to provide RESTful API to the Android Application. Containerized project using Docker image and deployed it to Github Codespaces.
+Stored the logging of users' behavioral data to web service such as search keywords, request timestamps, and APl latency to MongoDB. Created a web-based dashboard to visualize the aggregated metrics of users' access pattern.
 
 1.  Implement a native Android application
 The name of my native Android application project in Android Studio is: NBASTAT
